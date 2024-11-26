@@ -10,6 +10,15 @@
   box-shadow: 0px 1px 5px 0px rgba(9, 9, 153, 1);
   /* width: 100%; */
 }
+.container h2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.container img {
+  width: 50px;
+}
 @media (max-width: 700px) {
   .container {
     margin: 10px 20px;
