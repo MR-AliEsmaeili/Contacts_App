@@ -1,6 +1,6 @@
 .container {
   padding: 20px 5px;
-  margin: 20px 0;
+  margin: 20px 20px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,8 @@
   box-shadow: 1px 1px 19px -2px rgba(62, 62, 224, 0.76);
 }
 .container input {
-  width: 50%;
-  margin: 5px 0px;
+  width: 90%;
+  margin: 8px 0px;
   -webkit-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
   -moz-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
   box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
@@ -21,12 +21,13 @@
   padding: 10px 5px;
 }
 .container button {
-  width: 100px;
+  width: 90%;
   border-radius: 10px;
   background-color: rgba(132, 102, 241, 0.308);
   transition: 0.3s all ease-in-out;
   margin-top: 20px;
-  padding: 5px;
+  padding: 15px 5px;
+  font-size: large;
 }
 .container button:hover {
   cursor: pointer;
@@ -35,4 +36,17 @@
   -webkit-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
   -moz-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
   box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+}
+@media (max-width: 700px) {
+  .container {
+    margin: 15px 20px;
+  }
+  .container input {
+    width: 90%;
+    margin: 7px 0px;
+  }
+  .container button {
+    width: 90%;
+    padding: 10px 0;
+  }
 }

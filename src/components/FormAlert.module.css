@@ -1,5 +1,4 @@
 .container {
-  width: 100%;
   background-color: #ffacac88;
   border-radius: 15px;
   padding: 10px 20px;
@@ -9,4 +8,12 @@
 }
 .hidden {
   display: none;
+}
+@media (max-width: 700px) {
+  .container {
+    margin: 0 20px;
+  }
+  .container span {
+    font-size: small;
+  }
 }
