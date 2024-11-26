@@ -1,0 +1,57 @@
+.container {
+  -webkit-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+  -moz-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+  box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+  padding: 15px 5px;
+  margin: 0px;
+  border-radius: 15px;
+  /* width: 100%; */
+}
+.container h3 {
+  text-align: center;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* .container ul {
+  /* margin: auto; */
+/* display: flex; */
+/* width: 100%; 
+} */
+.container li {
+  list-style: none;
+  display: flex;
+  background-color: #6258e9;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 7px 0;
+  align-items: center;
+  cursor: pointer;
+}
+.container li:hover {
+  -webkit-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+  -moz-box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+  box-shadow: 1px 1px 9px 0px rgba(62, 62, 224, 0.76);
+}
+.container li span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+.container li span:hover {
+  cursor: pointer;
+}
+.container li button {
+  padding: 5px 12px;
+  font-size: medium;
+  color: red;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.container li button:hover {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(146, 5, 5);
+}

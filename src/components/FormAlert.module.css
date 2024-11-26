@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  background-color: #ffacac88;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ca1f1f;
+}
+.hidden {
+  display: none;
+}
